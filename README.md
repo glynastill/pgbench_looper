@@ -10,15 +10,19 @@ Usage
 
 Edit the variables at the top of the script to suit, then run.
 
+```bash
 $ ./pgbench_looper.sh
+```
 
 Graphing output
 ---------------
 
 ### Gnuplot ###
 
+```bash
 $ gnuplot -e "filename='test-20130407_16-26.csv'" pgbench_looper.p -persist
 $ gnuplot -e "filename='test-20130407_16-26.csv'; outfilename='test-20130407_16-26.png'" pgbench_looper.p
+```
 
 ### Excel ###
 
