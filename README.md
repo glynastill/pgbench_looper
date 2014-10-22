@@ -8,6 +8,8 @@ plotted as required. Gnuplot script and excel sheet included to graph output.
 Usage
 -----
 
+Edit the variables at the top of the script to suit, then run.
+
 $ ./pgbench_looper.sh
 
 Graphing output
